@@ -3,9 +3,6 @@ const { StatusCodes } = require('http-status-codes')
 const CustomError = require('../errors')
 const { createTokenUser, attachCookiesToResponse } = require('../utils')
 
-//test
-//testing
-//tttt
 const register = async (req, res) => {
   const { email, name, password } = req.body
 
